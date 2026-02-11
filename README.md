@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Person%20Lifting%20Weights%20Light%20Skin%20Tone.png" alt="Person Lifting Weights Light Skin Tone" width="25" height="25" /> TCC</h1>
+<h1 align="center" style="font-weight: bold;"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Person%20Lifting%20Weights%20Light%20Skin%20Tone.png" alt="Person Lifting Weights Light Skin Tone" width="25" height="25" /> APE</h1>
 
 <p align="center">
  <a href="#layout">Layout</a> • 
@@ -69,7 +69,7 @@
 <h2 id="architecture"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> Architecture</h2>
 
 <p align="center">
-    <img src="./assets/img/architecture/architecture.jpg" alt="Architecture" width="500px">
+    <img src="./assets/img/architecture/architecture.png" alt="Architecture" width="750px">
 </p>
 
 <h2 id="colab">🤝 Collaborators</h2>
