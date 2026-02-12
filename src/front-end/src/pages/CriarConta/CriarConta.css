@@ -1,0 +1,137 @@
+.cadastro-usuario-container {
+    margin: 0 auto;
+    padding: 20px 275px;
+}
+
+.selectPersonal {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+.selectPersonal-group {
+    margin-bottom: 20px;
+}
+
+    .selectPersonal-group select {
+        width: 390px;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        touch-action: none;
+    }
+
+@media (max-width: 768px) {
+    .cadastro-usuario-container {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .title-group h1 {
+        font-size: 28px;
+    }
+
+    .title-group h2 {
+        font-size: 24px;
+    }
+
+    .input-group input,
+    .textArea-group textarea,
+    .select-group select {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+.error-message {
+    color: red;
+}
+
+.termos-container {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.termos-container input {
+    margin-right: 8px;
+}
+
+.link-termos {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.conteudo-termos {
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
+}
+
+.input-cref-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+    .input-cref-group label {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+.input-cref-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input-cref {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+    .input-cref.numeroCref {
+        flex: 5;
+    }
+
+    .input-cref.categoriaCref {
+        flex: 1;
+        text-align: center;
+    }
+
+    .input-cref.estado {
+        flex: 1;
+        text-align: center;
+    }
+
+.error-message {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+    .input-group input {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
