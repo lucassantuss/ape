@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>APE - Assistente Pessoal de Exercícios</title>
+    <link rel="stylesheet" href="ape.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script defer src="ape.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="info">
+            <div>Repetições: <span id="counter">0</span></div>
+            <div>Estágio: <span id="stage">---</span></div>
+            <div>Ângulo: <span id="angle">0.00</span></div>
+        </div>
+        <canvas id="videoCanvas"></canvas>
+        <div id="grupoInferior">
+            <select id="comboExercicio">
+                <option value="roscaDireta">Rosca Direta</option>
+                <option value="meioAgachamento">Meio Agachamento</option>
+                <!-- 
+                <option value="cadeiraExtensora">Cadeira Extensora</option>
+                <option value="supinoReto">Supino Reto</option> 
+                -->
+            </select>
+            <button id="btnIniciarAvaliacao" onclick="mediapipe().main();">Iniciar Avaliação</button>
+        </div>
+    </div>
+</body>
+
+</html>
